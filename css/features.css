@@ -1,0 +1,13 @@
+.features-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.features-list li{
+    max-width: 264px;
+}
+
+.subtitle {
+    margin-bottom: 8px;
+}
