@@ -4,6 +4,15 @@
     gap: 24px;
 }
 
+.features-icon-wrapper {
+    padding:24px 100px;
+    margin-bottom: 8px;
+    border: 1px solid #8E8F99;
+    background-color: #F4F4FD;
+}
+
+.features-icon-wrapper > svg{}
+
 .features-list li{
     max-width: 264px;
 }

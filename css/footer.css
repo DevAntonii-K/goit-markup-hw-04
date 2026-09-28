@@ -5,9 +5,8 @@
 
 .footer > .container{
     display: flex;
-    flex-direction: column;
-    gap: 16px;
-}   
+}
+
 .footer > .container .logo{
     color:#F4F4FD;
 }
@@ -15,3 +14,41 @@
     max-width: 264px;
     color:#F4F4FD;
 }
+
+.footer > .container > .logo-container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* === ICONS === */
+
+.footer-social{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-left: 120px;
+}
+
+.footer-social > p{
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFF;
+}
+
+.footer-social-list{
+    display: flex;
+    gap: 16px;
+}
+/* ======= HOVER ======= */
+
+.footer-social-list li svg{
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-list li:hover svg,
+.footer-social-list li:focus svg{
+    fill:#31D0AA;
+}
+

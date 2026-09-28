@@ -1,4 +1,4 @@
-.team{
+    .team{
     background-color: #F4F4FD;
 }
 
@@ -18,14 +18,17 @@
     align-items: center;
 }
 
+/* ==== TEAM-LIST ITEM ===== */
 .team-list > .list-item{
     display: flex;
     flex-direction: column;
 
     border-radius: 0 0 4px 4px;
     width: 264px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 
     background-color: #fff;
+
 }
 
 .team-list >.list-item > img{
@@ -47,4 +50,25 @@
 }
 .team-list .worker-position{
     text-align: center;
+}
+
+/* ========= TEAM ICONS ========= */
+
+.team-icons-list{
+    display: flex;
+    gap: 24px;
+}
+
+.team-icons-list  svg{
+    fill: #4D5AE5;
+    transition: fill 250ms cubic-bezier(0.4,0,0.2,1); 
+}
+
+.team-icons-list li:hover svg{
+    fill:#404BBF;
+}
+
+.team-icons-list li:focus svg{
+    fill: #404BBF;
+
 }
