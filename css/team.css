@@ -31,7 +31,7 @@
 
 }
 
-.team-list >.list-item > img{
+.team-list >.list-item > .team-image{
     display: block;
 }
 
@@ -48,6 +48,7 @@
 .team-list .worker-name{
     text-align: center;
 }
+
 .team-list .worker-position{
     text-align: center;
 }
@@ -59,16 +60,20 @@
     gap: 24px;
 }
 
-.team-icons-list  svg{
-    fill: #4D5AE5;
-    transition: fill 250ms cubic-bezier(0.4,0,0.2,1); 
+.social-item > .social-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #4D5AE5;
+    color:#F4F4FD;
+    padding: 12px;
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-icons-list li:hover svg{
-    fill:#404BBF;
-}
-
-.team-icons-list li:focus svg{
-    fill: #404BBF;
-
+.social-item >.social-link:hover,
+.social-item>.social-link:active,
+.social-item>.social-link:focus {
+    background-color: #404BBF;
 }

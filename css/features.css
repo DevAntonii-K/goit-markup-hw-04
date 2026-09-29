@@ -5,9 +5,15 @@
 }
 
 .features-icon-wrapper {
-    padding:24px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:112px;
+    padding-top:24px;
+    padding-bottom: 24px;
     margin-bottom: 8px;
     border: 1px solid #8E8F99;
+    border-radius: 4px;
     background-color: #F4F4FD;
 }
 

@@ -43,12 +43,22 @@
 }
 /* ======= HOVER ======= */
 
-.footer-social-list li svg{
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.footer-social-link {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#4D5AE5;
+    color:#f4f4fd;
+    border-radius: 50%;
+    padding:8px;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social-list li:hover svg,
-.footer-social-list li:focus svg{
-    fill:#31D0AA;
+.footer-social-link:hover,
+.footer-social-link:focus{
+    background-color:#31D0AA;
 }
 
